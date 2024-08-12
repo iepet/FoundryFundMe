@@ -1,10 +1,22 @@
 ## Getting Started
 
-# Deploy
-forge script script/DeployFundMe.s.sol
-# Testing
-forge test
-or
+### Build
+
+```shell
+$ forge build
+```
+
+### Deploy
+
+```shell
+$ forge script script/Counter.s.sol:CounterScript --rpc-url <your_rpc_url> --private-key <your_private_key>
+```
+
+### Test
+
+```shell
+$ forge test
+```
 
 // Only run test functions matching the specified regex pattern.
 
@@ -27,18 +39,6 @@ Foundry consists of:
 
 ## Documentation
 
-### Build
-
-```shell
-$ forge build
-```
-
-### Test
-
-```shell
-$ forge test
-```
-
 ### Format
 
 ```shell
@@ -57,11 +57,6 @@ $ forge snapshot
 $ anvil
 ```
 
-### Deploy
-
-```shell
-$ forge script script/Counter.s.sol:CounterScript --rpc-url <your_rpc_url> --private-key <your_private_key>
-```
 
 ### Cast
 
